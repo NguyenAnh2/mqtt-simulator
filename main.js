@@ -16,7 +16,7 @@ const client = connect(brokerUrl, {
     clean: true,
 });
 
-const TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZnVsbF9uYW1lIjoiTmd1eeG7hW4gVsSDbiBUZXN0IiwiZXhwIjoxNzM3ODU1NDY0LjIxMywiaWF0IjoxNzM3NTk2MjY0fQ.C3t_ohR5rZou9V-lPXvGRqLxbidq6tKPcbsLwGszIuY'
+const TOKEN = 'ADD TOKEN HERE'
 const apiUrl = 'https://uat-core.vgps.vn/api/devices'
 const apiActivateUrl = 'https://uat-core.vgps.vn/api/devices/active'
 // Helper functions
