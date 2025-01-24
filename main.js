@@ -9,8 +9,8 @@ const brokerUrl = 'mqtt://mqtt.vgps.vn:1883';
 // MQTT Client Configuration
 const client = connect(brokerUrl, {
     clientId: `vgps-be-development`,
-    username: 'app@VGPS',
-    password: 'test@VGPS',
+    username: 'username',
+    password: 'password',
     reconnectPeriod: 10000,
     keepalive: 60,
     clean: true,
